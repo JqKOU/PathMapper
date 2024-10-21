@@ -25,7 +25,7 @@ _max_width_()
 backslash = "\\"
 
 st.markdown("#### ➰ K Drive Path Converter for SAS EG and R Usage")
-Kloc = st.text_input('Paste K drive path below', value=r"K:\xover\cibmtr\biostats\projects")
+Kloc = st.text_input('Paste K drive path below', value=r" ")
 if re.search('[a-zA-Z]', Kloc):
     Rloc = Kloc.replace(backslash , "/")
     EGloc = Rloc.replace('K:/xover/', "/netware/grpshare/")
