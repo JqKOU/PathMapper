@@ -35,4 +35,6 @@ st.code(f'''{EGloc}''')
 st.markdown('R')      
 st.code(f'''{Rloc}''')
 
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)   
+
 
